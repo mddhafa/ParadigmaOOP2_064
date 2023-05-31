@@ -15,7 +15,7 @@ public:
 	//menampilkan nilai 
 	void display() {
 		cout << "x = " << x << endl;
-		cout << "x = " << x << endl;
+		cout << "y = " << x << endl;
 	}
 };
 
