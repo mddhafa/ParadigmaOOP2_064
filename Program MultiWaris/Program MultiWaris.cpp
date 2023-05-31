@@ -15,3 +15,15 @@ public:
 	}
 };
 
+class manusia {
+public:
+	string jeniskelamin;
+
+	manusia(string pJeniskelasmin) :
+		jeniskelamin(pJeniskelasmin) {
+		cout << "manusia di buat\n" << endl;
+	}
+	~manusia() {
+		cout << "manusia di hapus\n" << endl;
+	}
+};
